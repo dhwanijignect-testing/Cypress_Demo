@@ -1,0 +1,4 @@
+node_modules/
+.env
+Cypress/videos/
+Cypress/screenshots/

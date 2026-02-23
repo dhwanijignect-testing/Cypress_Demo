@@ -1,0 +1,19 @@
+.settings-card-header[data-v-5b295bce] {
+  grid-template-columns: auto auto 1fr auto;
+}.description[data-v-2ecb2dd4] a code {
+  --tw-text-opacity: 1 !important;
+  color: rgba(73, 86, 227, var(--tw-text-opacity)) !important;
+}
+.description[data-v-2ecb2dd4] a {
+  outline: 2px solid transparent !important;
+  outline-offset: 2px !important;
+  --tw-text-opacity: 1 !important;
+  color: rgba(73, 86, 227, var(--tw-text-opacity)) !important;
+}
+.description[data-v-2ecb2dd4] a:hover, .description[data-v-2ecb2dd4] a:focus {
+  --tw-line-opacity: 1 !important;
+  -webkit-text-decoration-color: rgba(73, 86, 227, var(--tw-line-opacity)) !important;
+  text-decoration-color: rgba(73, 86, 227, var(--tw-line-opacity)) !important;
+  -webkit-text-decoration-line: underline !important;
+  text-decoration-line: underline !important;
+}

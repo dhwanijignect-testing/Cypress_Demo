@@ -1,0 +1,5 @@
+input[type="search"][data-v-5cccd1c3]::-webkit-search-decoration, input[type="search"][data-v-5cccd1c3]::-webkit-search-cancel-button, input[type="search"][data-v-5cccd1c3]::-webkit-search-results-button, input[type="search"][data-v-5cccd1c3]::-webkit-search-results-decoration {
+  display: none !important;
+}.ghost-div[data-v-21118509] {
+  width: calc(100% - 24px);
+}

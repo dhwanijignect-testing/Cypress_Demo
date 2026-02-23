@@ -1,0 +1,50 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Get GitHub PR Comments",
+      "type": "shell",
+      "command": "node scripts/get-pr-comments.js",
+      "group": "none",
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared",
+        "focus": true
+      },
+      "problemMatcher": {
+        "owner": "github-pr-comments",
+        "fileLocation": ["absolute"],
+        "pattern": {
+          "regexp": "^(.+):(\\d+):(\\d+)?\\s+-\\s+(.+)$",
+          "file": 1,
+          "line": 2,
+          "column": 3,
+          "message": 4
+        }
+      }
+    },
+    {
+      "label": "Run Cypress Tests",
+      "type": "shell",
+      "command": "npx cypress run --browser chrome",
+      "group": {
+        "kind": "test",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      }
+    },
+    {
+      "label": "Open Cypress UI",
+      "type": "shell",
+      "command": "npx cypress open",
+      "group": "none",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      }
+    }
+  ]
+}
