@@ -1,11 +1,12 @@
 import Regestration from "../pages/registration";
 import regestrationDF from "../fixtures/regestrationDF.js";
 import staticTexts from "../constants/staticTexts.js";
+import staticUrls from "../constants/staticUrls.js";
 
 describe('Student Registration Form', () => {
   var regestration = new Regestration();
   it('Registration is successfull', () => {
-    cy.visit('https://demoqa.com/')
+    cy.visit(staticUrls.homePage)
     regestration.navigateToRegistrationForm();
     regestration.fillFormDetails();
     regestration.clickOnSubmitButton();
