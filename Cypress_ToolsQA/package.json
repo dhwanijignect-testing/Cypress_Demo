@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "cypress": "^12.2.0",
+    "eslint-plugin-cypress": "^2.12.1"
+  },
+  "scripts": {
+    "cypress run": "cypress run --browser chrome"
+  }
+}

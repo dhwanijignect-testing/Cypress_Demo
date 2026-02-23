@@ -1,0 +1,20 @@
+li[data-v-c0af3e52]:not(:first-child)::before {
+  content: '.';
+  font-size: 1.125rem !important;
+  line-height: 1.75rem !important;
+  margin-top: -8px !important;
+  padding-right: 8px !important;
+  --tw-text-opacity: 1 !important;
+  color: rgba(175, 179, 199, var(--tw-text-opacity)) !important;
+}ol li[data-v-4de2844b]::marker {
+  --tw-text-opacity: 1 !important;
+  color: rgba(46, 50, 71, var(--tw-text-opacity)) !important;
+}.warning-markdown ul {
+  margin-left: 16px !important;
+  margin-bottom: 16px !important;
+}.fade-enter-active[data-v-d4e16d68], .fade-leave-active[data-v-d4e16d68] {
+  transition: opacity .3s;
+}
+.fade-enter-from[data-v-d4e16d68], .fade-leave-to[data-v-d4e16d68] {
+  opacity: 0;
+}
