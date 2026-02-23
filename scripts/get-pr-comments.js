@@ -3,6 +3,7 @@
 /**
  * get-pr-comments.js
  * // Script to fetch GitHub PR comments in VSCode
+ * Author: Dhwani Jignect 
 
  * 
  * Fetches GitHub PR review comments and outputs them in a format
