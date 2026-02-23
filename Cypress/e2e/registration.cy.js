@@ -1,5 +1,6 @@
 import Regestration from "../pages/registration";
 import regestrationDF from "../fixtures/regestrationDF.js";
+import staticTexts from "../constants/staticTexts.js";
 
 describe('Student Registration Form', () => {
   var regestration = new Regestration();
@@ -10,7 +11,7 @@ describe('Student Registration Form', () => {
     regestration.clickOnSubmitButton();
 
     //Implicit Assertions
-    regestration.getModalHeaderText().should("have.text", "Thanks for submitting the form"); 
+    regestration.getModalHeaderText().should("have.text", staticTexts.registrationMessage); 
     regestration.getstudentNameValue().should("be.visible")
     
     //Explicit Assertions
